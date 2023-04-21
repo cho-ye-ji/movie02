@@ -1,0 +1,65 @@
+
+body{
+  margin: 0; padding: 0;
+  /* background-color: #22254b; */
+  background-color: #dfdfdf;
+}
+.header{ 
+  width: 100%; background-color: #032541;
+  height: 100px; line-height: 100px;
+  display: flex; 
+} 
+.header a{
+  color: #fff; text-decoration: none;
+  margin-left: auto; padding-right: 30px;
+} 
+.header h1{ 
+  color: #fff; text-align: left; margin: 0;
+  padding-left: 30px; line-height: 100px;
+}
+
+.app-top{
+  background: url("https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,00192f,00baff)/34OGjFEbHj0E3lE2w0iTUVq0CBz.jpg");
+  height: 300px; background-size: cover;
+  filter: grayscale(80%);
+  position: relative;
+}
+.app-top .app-txt{
+   position: absolute; top: 50%;left: 50%;
+   transform: translate(-50%, -50%);
+  text-align: center; color: #dfdfdf;
+}
+.app-top .app-txt h2{ margin-bottom: 5px;}
+.app-top .app-txt p{ margin-top: 0;}
+.app-container .app-container-top{
+  width: 100%; text-align: center;
+  padding: 20px 0;
+}
+.app-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-container{
+  width: 250px;
+  margin: 16px;
+  background-color: #373b69; color: #fff;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+}
+
+.movie-container img{
+  max-width: 100%;
+}
+
+.movie-info span{ margin-left: 3px;}
+.movie-info h4{ margin: 0 ;}
+.movie-info{
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.likeBtn{
+  white-space: nowrap;
+}
